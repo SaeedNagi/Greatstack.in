@@ -1,0 +1,121 @@
+.title{
+    width: 30vw;
+    height: 10vh;
+    margin-left: 30vw;
+}
+body{
+    text-align: center;
+}
+.title p{
+    padding: 10px;
+    color: #212ea0;
+    font: 1em sans-serif;
+    font-weight: 600;
+}
+.title h2{
+    color: #000f38;
+    font: 2em sans-serif;
+    font-weight: 700;
+}
+
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    color: #676767;
+}
+.colloum{
+    width: 40vw;
+    height: 80vh;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 500;
+}
+.colloum h3{
+    font: 2em sans-serif;
+    color: #212ea0;
+    font-weight: 600;
+}
+.colloum img{
+    width: 45px;
+    margin-left: 10px;
+}
+.list li{
+    list-style: none;  
+    padding: 0px;  
+    color: #676767;
+}
+.list li img{
+    width: 25px;
+    margin-left: 10px;
+}
+.list p{
+    margin-left: 20px;
+}
+.contact-col h3{
+    color: #000f38;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.colloum p{
+    color: #676767;
+}
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #c8c8ca;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+.btn{
+    border-radius: 30px;
+    padding: 10px;
+    border-style: none;
+    font: 1em sans-serif;
+    color: rgb(250, 249, 249);
+    background-color: #212ea0;
+   cursor: pointer;
+}
+.btn img{
+    width: 20px;
+  height: auto;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+.feet{
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px 0;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.feet ul{
+    margin-left: 40vw;
+}
+.feet p{
+    margin-left: 5vw;
+}
